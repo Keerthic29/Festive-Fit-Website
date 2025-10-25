@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Festive Fit - Style for Every Celebration</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #ffe0ec, #ffd6a5);
+      color: #333;
+    }
+
+    header {
+      background: #ff4b5c;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    nav {
+      margin-top: 8px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffe66d;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(120deg, #fbc2eb, #a6c1ee);
+      color: #222;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+    }
+
+    section {
+      text-align: center;
+      margin: 50px 0;
+    }
+
+    h2 {
+      color: #ff4b5c;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      margin: 30px auto;
+      max-width: 1000px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      width: 250px;
+      padding: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+    }
+
+    .card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .card p {
+      font-weight: 600;
+      color: #ff4b5c;
+      margin-top: 8px;
+      font-size: 1.1rem;
+    }
+
+    #upload, #chatbot {
+      background: rgba(255,255,255,0.6);
+      padding: 30px;
+      border-radius: 20px;
+      width: 80%;
+      margin: 40px auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    button {
+      background: #ff4b5c;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-top: 10px;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #ff758f;
+    }
+
+    .chat-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #chat-box {
+      background: white;
+      width: 80%;
+      height: 200px;
+      overflow-y: auto;
+      border-radius: 10px;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    #userInput {
+      width: 70%;
+      padding: 8px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+    }
+
+    footer {
+      text-align: center;
+      background: #ff4b5c;
+      color: white;
+      padding: 10px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Festive Fit</h1>
+    <nav>
+      <a href="#gallery">Indian Wear</a>
+      <a href="#western">Western Wear</a>
+      <a href="#upload">AI Stylist</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Find Your Perfect Festive Look 🎉</h2>
+    <p>Discover your ideal outfit for every occasion — from traditional celebrations to casual western vibes!</p>
+  </section>
+
+  <!-- INDIAN WEAR -->
+  <section id="gallery">
+    <h2>✨ Festive Outfit Inspirations (Indian)</h2>
+    <div class="gallery">
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2020/11/21/06/58/woman-5763248_1280.jpg" alt="Lehenga">
+        <p>Lehenga</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2022/01/21/11/25/anarkali-kurta-6954546_1280.jpg" alt="Kurta">
+        <p>Kurta</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2015/11/19/11/18/wedding-saree-collection-1050929_1280.jpg" alt="Saree">
+        <p>Saree</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2024/09/26/05/13/men-9075038_1280.jpg" alt="Sherwani">
+        <p>Sherwani</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WESTERN WEAR -->
+  <section id="western">
+    <h2>💃 Western & Casual Vibes</h2>
+    <div class="gallery">
+      <div class="card">
+        <img src="https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Women's Dress">
+        <p>Women's Casual Dress</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2020/08/22/05/58/women-5507605_1280.jpg" alt="Women's Jeans">
+        <p>Women's Denim Style</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2023/12/20/03/29/men-8458815_1280.jpg" alt="Men Casual">
+        <p>Men's Casual Look</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Men Jacket">
+        <p>Men's Streetwear</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI STYLIST -->
+  <section id="upload">
+    <h2>🧠 AI Fashion Stylist</h2>
+    <p>Upload your photo and get personalized outfit suggestions!</p>
+    <input type="file" id="imageUpload" accept="image/*">
+    <button id="analyzeBtn">Analyze My Look</button>
+    <p id="aiOutput"></p>
+  </section>
+
+  <!-- CHATBOT -->
+  <section id="chatbot">
+    <h2>💬 Ask Our AI Stylist</h2>
+    <div class="chat-container">
+      <div id="chat-box"></div>
+      <input type="text" id="userInput" placeholder="Ask for style advice...">
+      <button id="sendBtn">Send</button>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>© 2025 Festive Fit | Designed with ❤️ for Fashion Lovers</p>
+  </footer>
+
+  <script>
+    // AI Style Analysis
+    document.getElementById("analyzeBtn").addEventListener("click", () => {
+      const output = document.getElementById("aiOutput");
+      output.innerText = "Analyzing your style... 👗✨";
+      setTimeout(() => {
+        output.innerText = "You’d look amazing in a pastel Indo-Western fusion outfit or a chic floral western dress!";
+      }, 2000);
+    });
+
+    // Simple Chatbot
+    document.getElementById("sendBtn").addEventListener("click", () => {
+      const input = document.getElementById("userInput").value.trim();
+      const chatBox = document.getElementById("chat-box");
+
+      if (input === "") return;
+
+      const userMsg = document.createElement("p");
+      userMsg.textContent = "You: " + input;
+      chatBox.appendChild(userMsg);
+
+      const botMsg = document.createElement("p");
+      botMsg.style.color = "#ff4b5c";
+
+      let reply = "Hmm, interesting choice! Could you tell me more about the occasion?";
+      if (input.toLowerCase().includes("saree")) {
+        reply = "Sarees are timeless! Try silk or organza for an elegant festive vibe.";
+      } else if (input.toLowerCase().includes("kurta")) {
+        reply = "Kurtas look great! Pair with churidar pants and a bold stole.";
+      } else if (input.toLowerCase().includes("western")) {
+        reply = "Western wear? A jumpsuit or blazer set would be perfect for a modern look.";
+      } else if (input.toLowerCase().includes("casual")) {
+        reply = "Casual look? Go for denim jackets or simple cotton dresses — comfy yet stylish!";
+      }
+
+      setTimeout(() => {
+        botMsg.textContent = "AI Stylist: " + reply;
+        chatBox.appendChild(botMsg);
+        chatBox.scrollTop = chatBox.scrollHeight;
+      }, 800);
+
+      document.getElementById("userInput").value = "";
+    });
+  </script>
+</body>
+</html>
