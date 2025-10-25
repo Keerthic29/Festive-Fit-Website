@@ -31,5 +31,4 @@ FestiveFit was created to simplify the confusion of “What should I wear?” by
 ## Getting Started
 
 ### Step 1: Clone the repository
-```bash
-git clone https://github.com/<your-username>/FestiveFit.git
+https://keerthic29.github.io/Festive-Fit-Website/
